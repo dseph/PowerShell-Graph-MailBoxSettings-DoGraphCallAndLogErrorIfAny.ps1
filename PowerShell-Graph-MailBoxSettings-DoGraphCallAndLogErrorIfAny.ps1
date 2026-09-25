@@ -2,6 +2,7 @@
 # This sample script demonstrates how to make a call to the Microsoft Graph API to get mailbox settings for a user and 
 # log detailed information about the call, especially in case of errors. It uses app-only authentication (client credentials flow) 
 # and requires the MailboxSettings.Read application permission to be granted to the app registration in Azure AD. 
+#
 # If Mailbox Settings such as OOF was never set (it happens for Shared Mailboxes) and the mailbox is full then Exo will try to
 # add the settings and because its full it will fail an you will get a null setting error.
 # 
